@@ -40,7 +40,7 @@ body {
   background-color:#005400de;
   padding: 30px;
   margin: 20px;
-  height: auto;
+  height: 250px;
   border: #003200;
   border-radius: 25px;
 
@@ -92,7 +92,7 @@ body {
   border-radius: 12px;
   }
   .spotify{
-    height: 300px;
+    height: 350px;
   }
   .spotify.song-desc{
     margin-top: 10px;
