@@ -284,7 +284,7 @@ input {
 
   background: transparent;
   outline: none;
-  color: #726659;
+  color: white;
 
   border: solid 1px #b3aca7;
   border-bottom: none;
@@ -296,7 +296,7 @@ input {
 }
 
 input:hover {
-  background: #fff;
+  background:#003200;
   color: #e2dedb;
 }
 
@@ -310,7 +310,7 @@ textarea {
   background: transparent;
   outline: none;
 
-  color: #726659;
+  color: white;
   font-family: "BBH Sans Hegarty",'Lato', sans-serif;
   font-size: 0.875em;
 
@@ -323,7 +323,7 @@ textarea {
 }
 
 textarea:hover {
-  background: #fff;
+  background:#003200;
   color: #e2dedb;
 }
 
@@ -336,7 +336,7 @@ textarea:hover {
 
   font-family: "BBH Sans Hegarty",'Lato', sans-serif;
   font-size: 0.875em;
-  color: #b3aca7;
+  color: white;
 
   outline:none;
   cursor: pointer;
@@ -346,5 +346,5 @@ textarea:hover {
 }
 
 #submit:hover {
-  color: #e2dedb;
+  color:white;
 }
