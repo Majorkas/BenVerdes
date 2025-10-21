@@ -348,3 +348,9 @@ textarea:hover {
 #submit:hover {
   color:white;
 }
+
+.success-msg{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

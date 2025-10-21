@@ -6,3 +6,13 @@ function navBar() {
     x.className = "topnav";
   }
 }
+
+let count = 6;
+function redirectPage() {
+  // countdown for the redirect that once it hits 0 redirects the page back to '/'
+  count--;
+  document.getElementById('countDown').innerHTML = count;
+  if (count == 0) {
+    window.location = "index.html";
+  }
+}
