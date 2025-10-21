@@ -16,3 +16,8 @@ function redirectPage() {
     window.location = "index.html";
   }
 }
+
+function initRedirect() {
+  //runs the redirect function
+  setInterval(redirectPage, 1000)
+}
