@@ -170,7 +170,7 @@ color: white;
   margin: 10px;
   padding: 5px;
   color: white;
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
   margin-top: 5px;
 }
@@ -187,8 +187,4 @@ color: white;
 }
 .even{
   border: white 5px solid;
-}
-
-@media screen and (max-width: 600px) {
-
 }
