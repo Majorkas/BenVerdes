@@ -36,7 +36,7 @@ body {
 .song-desc{
   padding: 0;
   color: white;
-  text-align: center;
+  text-align: right;
   margin: 10px;
   margin-top: 15px ;
 }
@@ -139,7 +139,7 @@ color: white;
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 8px;
   align-items: center;
   justify-content: center;
 }
@@ -148,7 +148,7 @@ color: white;
 .column {
   flex: 25%;
   max-width: 25%;
-  padding: 0 4px;
+  padding: 0 8px;
 }
 
 .column img {
@@ -174,16 +174,16 @@ color: white;
   border:#003200 2px solid;
   margin: 10px;
 }
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
+.odd{
+  border: black 5px solid;
+}
+.even{
+  border: white 5px solid;
 }
 
 @media screen and (max-width: 600px) {
   .column {
-    flex: 100%;
-    max-width: 100%;
+    flex: 20%;
+    max-width: 30%;
   }
 }
